@@ -4,6 +4,12 @@ slug: ''
 title: Stress Free Garden Maintainance
 featuredImage: 'https://ucarecdn.com/eb6f093f-4959-4216-8bac-ba66d69e39c1/'
 subtitle: Proudly servicing the Far South Coast since 2010
+primaryButton:
+  primaryButtonCopy: Get a Quote
+  primaryButtonLink: /get-a-quote
+secondaryButton:
+  secondaryButtonCopy: Learn More
+  secondaryButtonLink: '/#features'
 accordion:
   - content: Test
     title: Test
