@@ -213,15 +213,15 @@ collections: # A list of collections the CMS should be able to edit
             widget: "object"
             required: false
             fields:
-              - { label: 'Primary Button Copy', name: 'primaryButtonCopy', widget: 'text'}
-              - { label: 'Primary Button Link', name: 'primaryButtonLink', widget: 'text'}
+              - { label: 'Primary Button Copy', name: 'primaryButtonCopy', widget: 'string'}
+              - { label: 'Primary Button Link', name: 'primaryButtonLink', widget: 'string'}
           - label: "Secondary Button"
             name: "secondaryButton"
             widget: "object"
             required: false
             fields:
-              - { label: 'Secondary Button Copy', name: 'secondaryButtonCopy', widget: 'text'}
-              - { label: 'Secondary Button Link', name: 'secondaryButtonLink', widget: 'text'}
+              - { label: 'Secondary Button Copy', name: 'secondaryButtonCopy', widget: 'string'}
+              - { label: 'Secondary Button Link', name: 'secondaryButtonLink', widget: 'string'}
           - { label: Body, name: body, widget: markdown }
           - label: 'Accordion'
             name: 'accordion'
